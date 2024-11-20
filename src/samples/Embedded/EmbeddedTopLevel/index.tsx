@@ -495,7 +495,11 @@ export default function EmbeddedTopLevel() {
           </div>
           <div className={classes.pegaPartAccompaniment}>
             <div>
+              <img src='assets/img/pair.jpg' className={classes.pegaPartAccompanimentImage} />
               <img src='assets/img/aipmortgage.jpg' className={classes.pegaPartAccompanimentImage} />
+              <img src='assets/img/aipcash.jpg' className={classes.pegaPartAccompanimentImage} />
+              <img src='assets/img/percent.jpg' className={classes.pegaPartAccompanimentImage} />
+              <img src='assets/img/handshake.jpg' className={classes.pegaPartAccompanimentImage} />
             </div>
           </div>
         </div>
