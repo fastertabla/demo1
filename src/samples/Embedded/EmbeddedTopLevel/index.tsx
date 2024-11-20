@@ -460,7 +460,7 @@ export default function EmbeddedTopLevel() {
             <b>Thank you!</b>
             <br />
             <br />
-            Your Agreement in Principle is under review with the case reference AIP-6024. Representative from Lloyds bank will contact you with in the
+            Your Agreement in Principle is under review with the case reference AIP-6025. Representative from Lloyds bank will contact you with in the
             next couple of days to discuss next steps. <br />
             <br />
             If you have any questions, you can contact us directly at <b>08005551234</b> or you can chat with us.
