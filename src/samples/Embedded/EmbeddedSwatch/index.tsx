@@ -101,7 +101,7 @@ const useStyles = makeStyles(theme => ({
   },
   swatchShopButton: {
     color: 'white',
-    backgroundColor: 'black',
+    backgroundColor: '#006A4C',
     fontSize: '25px',
     fontWeight: 'bold',
     borderRadius: '25px',

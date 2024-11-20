@@ -437,18 +437,18 @@ export default function EmbeddedTopLevel() {
 
   function getShowTriplePlayOptionsMarkup() {
     const theOptions = shoppingOptions.map((option, index) => {
-      return (
-        <EmbeddedSwatch key={shoppingOptions[index].level} pcore={bShowAppName ? PCore : null} {...shoppingOptions[index]} onClick={createAIP} />
-      );
+      return <EmbeddedSwatch key={shoppingOptions[0].level} pcore={bShowAppName ? PCore : null} {...shoppingOptions[0]} onClick={createAIP} />;
     });
 
     return (
       <div>
-        <img src='./assets/img/header2.jpg' />
-        <img src='./assets/img/aip1.jpg' />
-        <img src='./assets/img/aip2.jpg' />
-        <img src='./assets/img/aip3.jpg' />
+        <img src='./assets/img/aiprates1.jpg' />
+        <img src='./assets/img/aiprates2.jpg' />
+        <img src='./assets/img/aiprates3.jpg' />
+        <img src='./assets/img/aiprates4.jpg' />
+        <img src='./assets/img/aiprates6.jpg' />
         <div className={classes.embedShoppingOptions}>{theOptions}</div>
+        <img src='./assets/img/aiprates7.jpg' />
       </div>
     );
   }
@@ -480,8 +480,8 @@ export default function EmbeddedTopLevel() {
     <div>
       {/* <h4>React SDK: /embedded</h4> */}
 
-      <div className={classes.embedTopRibbon} id='embedded-top-level-ribbon'>
-        <img src='./assets/img/header1.jpg' />
+      <div id='embedded-top-level-ribbon'>
+        <img src='./assets/img/aipratesheader.jpg' />
       </div>
       <div id='embedded-top-level-banner-buttons'>{bShowTriplePlayOptions ? getShowTriplePlayOptionsMarkup() : null}</div>
 
