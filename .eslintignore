@@ -1,0 +1,11 @@
+webpack.config.js
+src/helpers/config_access.js
+src/samples/Embedded/EmbeddedTopLevel/index.tsx
+src/samples/Embedded/EmbeddedSwatch/index.tsx
+scripts/*.*
+*.html
+*.css
+*.json
+*.md
+*.svg
+*.zip
